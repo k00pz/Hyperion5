@@ -77,7 +77,7 @@ Tab:AddButton({
 }) --This Will Check The Key You Entered
 
 Tab:AddButton({
-	Name = "Copy Key",
+	Name = "get Key",
 	Callback = function()
       		setclipboard("https://discord.com/invite/krMEbch4Zz") --This Will Copy The Link Of The Key
   	end    
