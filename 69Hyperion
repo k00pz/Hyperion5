@@ -38,7 +38,7 @@ Tab:AddTextbox({
 }) --You Will Enter The Key Here
 
 Tab:AddButton({
-    Name = "Check Key",
+    Name = "Check Hyperion Key",
     Callback = function()
         if getgenv().KeyInput == getgenv().Key then
             OrionLib:MakeNotification({
@@ -77,9 +77,9 @@ Tab:AddButton({
 }) --This Will Check The Key You Entered
 
 Tab:AddButton({
-	Name = "get Key",
+	Name = "Get Hyperion Key",
 	Callback = function()
-      		setclipboard("https://discord.com/invite/krMEbch4Zz") --This Will Copy The Link Of The Key
+      		setclipboard("https://discord.com/invite/RJPJ9rnPbn") --This Will Copy The Link Of The Key
   	end    
 }) 
     
